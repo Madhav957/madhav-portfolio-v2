@@ -22,3 +22,4 @@ Just open `index.html` in a browser, or serve the folder:
 ```
 python3 -m http.server 8000
 ```
+Portfolio deployed using Pages
