@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madhav Jayanti — Cloud Engineering Student &amp; Backend Developer</title>
+<meta name="description" content="Portfolio of Madhav Jayanti, a Computer Science Engineering student specializing in Cloud Engineering, AWS automation, and backend development with Python.">
+<meta name="theme-color" content="#0A0E14">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Madhav Jayanti — Cloud Engineering Student">
+<meta property="og:description" content="AWS · Python · Backend Development · Cloud Automation">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo"><span class="bracket">&lt;</span>Madhav<span class="accent-dot">.</span>dev<span class="bracket">/&gt;</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#project">Project</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#certifications">Certs</a>
+      <a href="#github">GitHub</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="grid-overlay"></div>
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot-live"></span>Hello, I'm</p>
+      <h1 class="hero-name">Madhav Jayanti</h1>
+      <p class="hero-role">Cloud Engineering Student</p>
+      <p class="hero-typed">
+        <span class="typed-prefix">$&nbsp;</span><span id="typedText"></span><span class="cursor-blink">_</span>
+      </p>
+
+      <div class="hero-actions">
+        <a href="#project" class="btn btn-primary">View Projects</a>
+        <a href="resume.pdf" class="btn btn-ghost" download>Download Resume</a>
+      </div>
+
+      <div class="hero-social">
+        <a href="https://github.com/Madhav957" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.87-1.54-3.87-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56C20.21 21.41 23.5 17.09 23.5 12 23.5 5.65 18.35.5 12 .5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/madhav-jayanti-35ab46379/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
+        </a>
+        <a href="mailto:madhav.jayanti@example.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 4.5A1.5 1.5 0 0 1 3.5 3h17A1.5 1.5 0 0 1 22 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 19.5v-15Zm2.2.5 7.8 6.1 7.8-6.1H4.2Zm15.8 1.4-7.42 5.8a1 1 0 0 1-1.16 0L3.99 6.4V19h16V6.4Z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="terminal-title">madhav@cloud-shell: ~/cloud-resource-manager</span>
+        </div>
+        <div class="terminal-body" id="terminalBody" aria-hidden="true"></div>
+      </div>
+      <div class="terminal-caption">Live simulation · <code>cloud_resource_manager.py</code></div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll to About"><span></span></a>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <div class="container">
+    <p class="section-eyebrow">01 · About</p>
+    <h2 class="section-title">Building the infrastructure behind the apps</h2>
+    <div class="about-grid">
+      <div class="about-copy">
+        <p>I'm a Computer Science Engineering student who got tired of watching applications break the moment real traffic hit them — so I went looking for the layer underneath: compute, storage, networking, and the automation that holds it all together. That search led me to AWS, and I haven't stopped digging since.</p>
+        <p>Most of what I know didn't come from a syllabus. It came from spinning up EC2 instances at 1 a.m., wiring a Boto3 script to a bucket that refused to cooperate, and reading IAM error messages until they finally made sense. I care about <strong>Cloud Engineering</strong> because it rewards that kind of stubbornness — every fixed permission policy or automated teardown script is a small, provable win.</p>
+        <p>On the backend side, I build with <strong>Python</strong> and <strong>FastAPI</strong>, treating APIs as contracts that should be predictable, documented, and boring in the best way. I'm currently deepening my grip on Lambda, event-driven design, and infrastructure as code — because the goal isn't just to make the cloud work, it's to make it repeatable.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <span class="stat-num">6+</span>
+          <span class="stat-label">AWS services automated</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">3</span>
+          <span class="stat-label">Backend projects shipped</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">CLI-first workflow</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">∞</span>
+          <span class="stat-label">Curiosity for “why did that fail”</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <p class="section-eyebrow">02 · Skills</p>
+    <h2 class="section-title">Tools I reach for</h2>
+
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3><span class="skill-icon">☁</span>Cloud</h3>
+        <ul class="skill-tags">
+          <li>AWS EC2</li><li>AWS S3</li><li>IAM</li><li>Lambda</li><li>VPC</li><li>CloudWatch</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3><span class="skill-icon">⌘</span>Programming</h3>
+        <ul class="skill-tags">
+          <li>Python</li><li>C</li><li>Java</li><li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3><span class="skill-icon">▤</span>Backend</h3>
+        <ul class="skill-tags">
+          <li>FastAPI</li><li>REST APIs</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3><span class="skill-icon">⚙</span>Tools</h3>
+        <ul class="skill-tags">
+          <li>Git</li><li>GitHub</li><li>Linux</li><li>VS Code</li><li>Terraform</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURED PROJECT ================= -->
+<section class="section" id="project">
+  <div class="container">
+    <p class="section-eyebrow">03 · Featured Build</p>
+    <h2 class="section-title">Cloud Resource Manager</h2>
+
+    <div class="feature-card">
+      <div class="feature-top">
+        <p class="feature-desc">A CLI-based application built with <strong>Python</strong> and <strong>Boto3</strong> to automate AWS resource management — no console clicking required. Every action below runs as a scripted, repeatable operation against real AWS APIs.</p>
+        <div class="feature-links">
+          <a href="#" class="btn btn-primary btn-sm">GitHub Repo</a>
+          <a href="#" class="btn btn-ghost btn-sm">Live Demo</a>
+        </div>
+      </div>
+
+      <div class="feature-services">
+        <div class="service-block">
+          <h4>Amazon S3</h4>
+          <ul class="feature-list">
+            <li>Create Bucket</li>
+            <li>List Buckets</li>
+            <li>Upload Files</li>
+            <li>Download Files</li>
+            <li>List Objects</li>
+            <li>Delete Objects</li>
+            <li>Delete Buckets</li>
+          </ul>
+        </div>
+        <div class="service-block">
+          <h4>Amazon EC2</h4>
+          <ul class="feature-list">
+            <li>List Instances</li>
+            <li>Launch Instances</li>
+            <li>Start Instances</li>
+            <li>Stop Instances</li>
+            <li>Reboot Instances</li>
+            <li>Terminate Instances</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OTHER PROJECTS ================= -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+    <p class="section-eyebrow">04 · More Work</p>
+    <h2 class="section-title">Other projects</h2>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-card-head">
+          <span class="project-tag">Cloud · FinOps</span>
+        </div>
+        <h3>AWS Cost Optimizer</h3>
+        <p>Scans running AWS resources and flags idle EC2 instances and unattached EBS volumes to cut monthly spend.</p>
+        <div class="tech-row">
+          <span>Python</span><span>Boto3</span><span>AWS Cost Explorer</span>
+        </div>
+        <a href="#" class="card-link">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-head">
+          <span class="project-tag">Backend · API</span>
+        </div>
+        <h3>Expense Tracker API</h3>
+        <p>A REST API for logging and categorizing personal expenses, with authentication and query-based filtering.</p>
+        <div class="tech-row">
+          <span>FastAPI</span><span>SQL</span><span>REST</span>
+        </div>
+        <a href="#" class="card-link">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-head">
+          <span class="project-tag">Frontend</span>
+        </div>
+        <h3>Portfolio Website</h3>
+        <p>This site — a dark, terminal-inspired portfolio built to showcase cloud and backend projects.</p>
+        <div class="tech-row">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+        </div>
+        <a href="#" class="card-link">View on GitHub →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LEARNING JOURNEY ================= -->
+<section class="section" id="journey">
+  <div class="container">
+    <p class="section-eyebrow">05 · Learning Journey</p>
+    <h2 class="section-title">Where I've been, where I'm headed</h2>
+
+    <div class="timeline">
+      <div class="timeline-col">
+        <h3 class="timeline-heading"><span class="status-dot status-done"></span>Completed</h3>
+        <ul class="timeline-list">
+          <li>AWS Cloud Practitioner Essentials</li>
+          <li>Amazon S3 Automation</li>
+          <li>Amazon EC2 Automation</li>
+        </ul>
+      </div>
+      <div class="timeline-col">
+        <h3 class="timeline-heading"><span class="status-dot status-current"></span>Currently Learning</h3>
+        <ul class="timeline-list">
+          <li>IAM</li>
+          <li>Lambda</li>
+          <li>SNS</li>
+          <li>CloudWatch</li>
+        </ul>
+      </div>
+      <div class="timeline-col">
+        <h3 class="timeline-heading"><span class="status-dot status-future"></span>Up Next</h3>
+        <ul class="timeline-list">
+          <li>FastAPI</li>
+          <li>Docker</li>
+          <li>PostgreSQL</li>
+          <li>Terraform</li>
+          <li>Kubernetes</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section class="section section-alt" id="certifications">
+  <div class="container">
+    <p class="section-eyebrow">06 · Certifications</p>
+    <h2 class="section-title">Credentials in progress</h2>
+
+    <div class="certs-grid">
+      <div class="cert-card">
+        <div class="cert-badge">AWS</div>
+        <h4>AWS Certified Cloud Practitioner</h4>
+        <p>Foundational · In Progress</p>
+      </div>
+      <div class="cert-card">
+        <div class="cert-badge">AWS</div>
+        <h4>AWS Certified Solutions Architect – Associate</h4>
+        <p>Associate · Planned</p>
+      </div>
+      <div class="cert-card">
+        <div class="cert-badge">HCK</div>
+        <h4>HackerRank Python (Basic)</h4>
+        <p>Programming · Placeholder</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GITHUB ================= -->
+<section class="section" id="github">
+  <div class="container">
+    <p class="section-eyebrow">07 · GitHub</p>
+    <h2 class="section-title">Commit history &amp; stats</h2>
+
+    <div class="github-grid">
+      <img class="gh-stat-img gh-stat-wide" src="https://github-readme-stats.vercel.app/api?username=Madhav957&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2563EB&icon_color=3B82F6" alt="GitHub stats for Madhav Jayanti" loading="lazy">
+      <img class="gh-stat-img" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Madhav957&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2563EB" alt="Most used languages" loading="lazy">
+      <img class="gh-stat-img gh-stat-wide" src="https://github-readme-streak-stats.herokuapp.com/?user=Madhav957&theme=github-dark-blue&hide_border=true&background=0D1117" alt="GitHub streak stats" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section section-alt" id="contact">
+  <div class="container">
+    <p class="section-eyebrow">08 · Contact</p>
+    <h2 class="section-title">Let's build something</h2>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p>Open to internships, collaborations, and conversations about cloud architecture. Reach out through any of these — I check all of them.</p>
+        <a class="contact-row" href="mailto:.jssmadhav20@gmail.com">
+          <span class="contact-icon">✉</span>jssmadhav20@gmail.com
+        </a>
+        <a class="contact-row" href="https://github.com/" target="_blank" rel="noopener">
+          <span class="contact-icon">⌥</span>github.com/Madhav957
+        </a>
+        <a class="contact-row" href="https://linkedin.com/" target="_blank" rel="noopener">
+          <span class="contact-icon">in</span>https://www.linkedin.com/in/madhav-jayanti-35ab46379/
+        </a>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" placeholder="Tell me about your project or opportunity" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© 2026 Madhav Jayanti</p>
+    <p class="footer-sub">Built with HTML, CSS, JavaScript, and a passion for Cloud Engineering.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
